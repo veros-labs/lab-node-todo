@@ -19,7 +19,7 @@ body {
 }
 
 .paper{
-    width: 700px;
+    width: 800px;
     border-radius: 3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
@@ -27,10 +27,33 @@ body {
 }
 
 .flatPaper{
-    width: 700px;
+    width: 800px;
     
     padding: 20px;
     background-color: white;
+}
+
+span{
+  background-color: #f7f4f4;
+  padding: 3px;
+  margin: 2px;
+  border-radius: 6px;
+ 
+}
+
+span:hover{
+  background-color: yellow;
+}
+
+li:hover{
+  background-color: #f1efef;
+}
+
+li:hover .button{
+  display: inline-block;
+  padding: 0px 3px 3px 3px;
+  margin: 0px;
+  
 }
 
 
