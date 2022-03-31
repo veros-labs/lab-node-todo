@@ -3,6 +3,11 @@
 
 Today's homework is to build a todo list.
 
+Refer to the presentation and to documentation
+- [presentation](https://dc-houston.herokuapp.com/p2/Postgres/PGPromise.html#1)
+- [documentation](http://vitaly-t.github.io/pg-promise/index.html)
+- [examples](https://github.com/vitaly-t/pg-promise/wiki/Learn-by-Example)
+
 In the end, your todo list should be able to read, write, update and delete a todo.
 
 
