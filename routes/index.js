@@ -6,14 +6,15 @@ router.get("/", (req, res) => {
 });
 
 
-// GET /todos
+//! test endpoints using thunder client before messing with frontend
+// GET /todos, displays all of the todos
 
-// GET /todos/:id
+// GET /todos/:id , displays todos by id
 
-// POST /todos
+// POST /todos, creates a new todo
 
-// PUT /todos/:id
+// PUT /todos/:id, update a todo item
 
-// DELETE /todos/:id
+// DELETE /todos/:id, delete a todo
 
 module.exports = router;
