@@ -11,6 +11,11 @@ Here is a working example: https://dc-todo-list-redux.netlify.app/
 
 The starting template has be created for you.
 
+To use the template 
+- `git clone` https://github.com/veros-labs/lab-node-todo.git 
+- `cd lab-node-todo` navigate into the lab-node-todo directory
+- `npm install` (install all of the dependencies)
+
 Remember to :
 
 - Create a postgres database
