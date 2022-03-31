@@ -48,3 +48,26 @@ Remember to :
 
 - Once you've completed and tested your node routes, it's time to work on your gui (EJS file).
 - You're going to have to add front-end logic for the button clicks inside of your public js file.
+
+
+You will need this additional code fragment for the update functionality
+
+```js 
+<div id="editContainer" class="input-group">
+    <div class="input-group-prepend ">
+        <span class="input-group-text h-100">Todo</span>
+        </div>
+
+    <textarea name="task" 
+    class="form-control" 
+    aria-label="With textarea"
+    placeholder="Edit a todo item..."></textarea>
+        <div class="input-group-append">
+        <button class="btn btn-outline-info h-100" type="submit" id="button-addon2">Edit</button>
+        </div>
+        <div class="input-group-append">
+        <button class="btn btn-outline-danger h-100" type="button" id="button-addon2">Cancel</button>
+    </div>
+</div>
+
+```
